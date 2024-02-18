@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/find-a-subway/static/css/main.f855e6bc.css",
+    "main.js": "/find-a-subway/static/js/main.faf61ae7.js",
+    "static/js/453.e5cc8413.chunk.js": "/find-a-subway/static/js/453.e5cc8413.chunk.js",
+    "index.html": "/find-a-subway/index.html",
+    "main.f855e6bc.css.map": "/find-a-subway/static/css/main.f855e6bc.css.map",
+    "main.faf61ae7.js.map": "/find-a-subway/static/js/main.faf61ae7.js.map",
+    "453.e5cc8413.chunk.js.map": "/find-a-subway/static/js/453.e5cc8413.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.faf61ae7.js"
+  ]
+}
