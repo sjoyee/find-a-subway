@@ -16,11 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls import include, re_path
 from outlets import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/subway-outlets', views.list_subway_outlets, name='list_subway_outlets'),
-    re_path(r'^', views.FrontendAppView.as_view()),
+    path('api/v1/subway-outlets', views.list_subway_outlets, name='list_subway_outlets')
 ]
