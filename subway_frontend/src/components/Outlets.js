@@ -22,10 +22,6 @@ const Outlets = () => {
     setSelectedOutlet(null);
   };
 
-  const handleEraseCircle = () => {
-    window.location.reload();
-  };
-
   // get subway outlet list from API (services.js)
   useEffect(() => {
     listSubwayOutlets(setOutlets);
@@ -140,9 +136,6 @@ const Outlets = () => {
             </>
           )}
         </GoogleMap>
-      </div>
-      <div>
-        <button onClick={handleEraseCircle}>Erase Circle</button>
       </div>
     </div>
   );

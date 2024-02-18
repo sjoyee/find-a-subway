@@ -142,3 +142,7 @@ GitHub.sublime-settings
 .history
 
 *.pem
+
+# self added files
+test.py
+testing.py
