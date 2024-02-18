@@ -1,6 +1,6 @@
-# Find A Subway
-
 Link: https://sjoyee.github.io/find-a-subway/
+
+<img width="1510" alt="frontend-screenshot" src="https://github.com/sjoyee/find-a-subway/assets/62273041/c4d39af2-968e-4f5b-bdd6-94eea1748681">
 
 ## Functionality
 ### Front-End - React (JavaScript)
