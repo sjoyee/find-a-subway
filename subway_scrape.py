@@ -4,7 +4,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'subway_backend.settings'
 import django
 django.setup()
 
-from outlets.models import Outlets
+from outlets.models import Outlet
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -55,7 +55,7 @@ def scrape_subway_outlets():
         longitude = displayed_location_list[i]['data-longitude']
         latitude = displayed_location_list[i]['data-latitude']
         
-        outlet = Outlets(name=name, address=address, operating_hour=operating_hour, waze_link=waze_link, longitude=longitude, latitude=latitude)
+        outlet = Outlet(name=name, address=address, operating_hour=operating_hour, waze_link=waze_link, longitude=longitude, latitude=latitude)
         outlet.save()
     
     driver.quit()

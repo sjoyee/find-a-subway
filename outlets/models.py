@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Outlets(models.Model):
+class Outlet(models.Model):
     name = models.CharField(max_length=255)
     address = models.CharField(max_length=255)
     operating_hour = models.CharField(max_length=255)
